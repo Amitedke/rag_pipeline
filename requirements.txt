@@ -1,0 +1,11 @@
+langchain == 0.1.19
+openai ==1.28.0
+streamlit == 1.34.0
+langserve
+fastapi
+uvicorn
+sse_starlette
+bs4
+pypdf
+chromadb
+FAISS

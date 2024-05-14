@@ -1,0 +1,13 @@
+prefix=D:/poc/langchain/langchain/Library
+exec_prefix=D:/poc/langchain/langchain/Library
+libdir=D:/poc/langchain/langchain/Library/lib
+sharedlibdir=D:/poc/langchain/langchain/Library/lib
+includedir=D:/poc/langchain/langchain/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
